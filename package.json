@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "ios": "react-native run-ios",
-    "postios": "tsc",
+    "ios": "react-native run-ios & tsc",
     "android-setup-port": "adb reverse tcp:8081 tcp:8080"
   },
   "dependencies": {
